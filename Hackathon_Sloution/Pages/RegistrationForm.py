@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
-from Pages.BasePage import BasePage
-from Utilities import configReader
+from Hackathon_Sloution.Pages.BasePage import BasePage
+from Hackathon_Sloution.Utilities import configReader
 
 
 class RegistrationPage(BasePage):
