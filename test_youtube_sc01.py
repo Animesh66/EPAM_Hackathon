@@ -21,12 +21,11 @@ time.sleep(3)
 driver.find_element(By.XPATH,"(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::yt-formatted-string[2]").click()
 driver.find_element(By.XPATH, "//div[normalize-space()='Videos']").click()
 time.sleep(3)
-# titles = driver.find_elements(By.XPATH, "//*[@id='video-title']")
+titles = driver.find_elements(By.XPATH, "//*[@id='video-title']")
 # titles.__getitem__(0).click()
-# driver.find_element(By.XPATH, "(//a[@id='video-title'])[2]").click()
-driver.find_element_by_xpath("(//a[@id='video-title'])[2]").click()
-# for title in titles:
-#     print(title)
+driver.find_element(By.XPATH, "(//a[@id='video-title'])[2]").click()
+for title in titles:
+    print(title)
 
 
 
