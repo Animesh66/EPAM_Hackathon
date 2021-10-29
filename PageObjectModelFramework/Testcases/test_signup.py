@@ -1,10 +1,10 @@
 import pytest
-from Pages.RegistrationPage import RegistrationPage
-from Testcases.BaseTest import BaseTest
-from Utilities import dataProvider
+from PageObjectModelFramework.Pages.RegistrationPage import RegistrationPage
+from PageObjectModelFramework.Testcases.BaseTest import BaseTest
+from PageObjectModelFramework.Utilities import dataProvider
 
 import logging
-from Utilities.LogUtil import Logger
+from PageObjectModelFramework.Utilities.LogUtil import Logger
 
 log = Logger(__name__,logging.INFO)
 

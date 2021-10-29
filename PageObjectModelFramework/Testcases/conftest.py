@@ -4,8 +4,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import pytest
 from webdriver_manager.firefox import GeckoDriverManager
-
-from Utilities import configReader
+from PageObjectModelFramework.Utilities import configReader
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)

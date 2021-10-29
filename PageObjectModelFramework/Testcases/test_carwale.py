@@ -1,15 +1,12 @@
 import time
-
 import pytest
-
-from Pages.CarBase import CarBase
-from Pages.HomePage import HomePage
-from Pages.NewCarsPage import NewCarsPage
-from Testcases.BaseTest import BaseTest
-from Utilities import dataProvider
-
+from PageObjectModelFramework.Pages.CarBase import CarBase
+from PageObjectModelFramework.Pages.HomePage import HomePage
+from PageObjectModelFramework.Pages.NewCarsPage import NewCarsPage
+from PageObjectModelFramework.Testcases.BaseTest import BaseTest
+from PageObjectModelFramework.Utilities import dataProvider
 import logging
-from Utilities.LogUtil import Logger
+from PageObjectModelFramework.Utilities.LogUtil import Logger
 
 log = Logger(__name__, logging.INFO)
 
